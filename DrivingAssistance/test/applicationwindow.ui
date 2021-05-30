@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ApplicationWindow</class>
+ <widget class="QWidget" name="ApplicationWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>734</width>
+    <height>576</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>智能行车辅助系统</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,4">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="LeftMainWidget" native="true">
+     <layout class="QVBoxLayout" name="verticalLayout" stretch="1,4">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QWidget" name="UserWidget" native="true">
+        <layout class="QGridLayout" name="gridLayout" rowstretch="2,1" columnstretch="2,1">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <property name="spacing">
+          <number>5</number>
+         </property>
+         <item row="0" column="0">
+          <widget class="QLabel" name="HeadImageLab">
+           <property name="text">
+            <string>头像</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLabel" name="NicknameLab">
+           <property name="text">
+            <string>昵称</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0" colspan="2">
+          <widget class="QLabel" name="TimeLab">
+           <property name="text">
+            <string>时间</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="FunctionBtnBox">
+        <property name="title">
+         <string>按钮组</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="VideoRecordBtn">
+           <property name="text">
+            <string>视频记录</string>
+           </property>
+           <property name="flat">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="DrivingBtn">
+           <property name="text">
+            <string>行车模式</string>
+           </property>
+           <property name="flat">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="Btn3">
+           <property name="text">
+            <string>倒车模式</string>
+           </property>
+           <property name="flat">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="Btn4">
+           <property name="text">
+            <string>鸟瞰模式</string>
+           </property>
+           <property name="flat">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="Btn5">
+           <property name="text">
+            <string>特征记录</string>
+           </property>
+           <property name="flat">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="Btn6">
+           <property name="text">
+            <string>系统设置</string>
+           </property>
+           <property name="flat">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="ExitBtn">
+           <property name="text">
+            <string>退出系统</string>
+           </property>
+           <property name="flat">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="verticalSpacer">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QStackedWidget" name="RightMainStack">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="FunctionWidget">
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QStackedWidget" name="FunctionStack">
+         <property name="currentIndex">
+          <number>3</number>
+         </property>
+         <widget class="VideoRecordWidget" name="VideoRecordPage"/>
+         <widget class="DrivingWidget" name="DrivingPage"/>
+         <widget class="ReversingWidget" name="ReversingPage"/>
+         <widget class="SurveyWidget" name="SurveyPage"/>
+         <widget class="FeatureWidget" name="FeaturePage"/>
+         <widget class="SettingWidget" name="SettingPage">
+          <property name="styleSheet">
+           <string notr="true">SettingWidget
+{
+	background:rgb(32, 74, 135)
+}</string>
+          </property>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="VideoWidget"/>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>SettingWidget</class>
+   <extends>QWidget</extends>
+   <header>settingwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>VideoRecordWidget</class>
+   <extends>QWidget</extends>
+   <header>videorecordwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>DrivingWidget</class>
+   <extends>QWidget</extends>
+   <header>drivingwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ReversingWidget</class>
+   <extends>QWidget</extends>
+   <header>reversingwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>SurveyWidget</class>
+   <extends>QWidget</extends>
+   <header>surveywidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>FeatureWidget</class>
+   <extends>QWidget</extends>
+   <header>featurewidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

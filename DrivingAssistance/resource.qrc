@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resource/logo/logo_cyzy.png</file>
+        <file>resource/img/logo_free.png</file>
+        <file>resource/icon/icon_acc.png</file>
+        <file>resource/icon/icon_nickname.png</file>
+        <file>resource/icon/icon_lock.png</file>
+        <file>resource/icon/icon_stop.png</file>
+        <file>resource/icon/icon_start.png</file>
+        <file>resource/icon/icon_pause.png</file>
+        <file>resource/icon/icon_next.png</file>
+        <file>resource/icon/icon_last.png</file>
+        <file>resource/img/img_damaged-60.png</file>
+        <file>resource/img/img_damaged-50.png</file>
+        <file>resource/img/img_damaged-40.png</file>
+        <file>resource/icon/icon_question.png</file>
+        <file>resource/icon/icon_error.png</file>
+        <file>resource/icon/icon_update.png</file>
+        <file>resource/icon/icon_close.png</file>
+        <file>resource/icon/icon_info.png</file>
+        <file>resource/icon/icon_uplode.png</file>
+        <file>resource/icon/icon_menu.png</file>
+        <file>resource/icon/icon_app.png</file>
+        <file>bin/CASCADE/car.xml</file>
+    </qresource>
+</RCC>

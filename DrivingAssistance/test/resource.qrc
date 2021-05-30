@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resource/logo/logo_cyzy.png</file>
+        <file>resource/img/logo_free.png</file>
+        <file>resource/icon/icon_acc.png</file>
+        <file>resource/icon/icon_nickname.png</file>
+        <file>resource/icon/icon_lock.png</file>
+        <file>resource/icon/icon_stop.png</file>
+        <file>resource/icon/icon_start.png</file>
+        <file>resource/icon/icon_pause.png</file>
+        <file>resource/icon/icon_next.png</file>
+        <file>resource/icon/icon_last.png</file>
+        <file>resource/img/img_damaged-60.png</file>
+        <file>resource/img/img_damaged-50.png</file>
+        <file>resource/img/img_damaged-40.png</file>
+    </qresource>
+</RCC>
